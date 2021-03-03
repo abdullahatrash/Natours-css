@@ -1,17 +1,12 @@
 {
   "name": "starter",
   "version": "1.0.0",
-  "description": "",
+  "description": "my test project",
   "main": "index.js",
-  "dependencies": {
-    "jquery": "^3.6.0",
-    "sass": "^1.32.8"
-  },
-  "devDependencies": {
-    "sass-node": "^4.11.2"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+
   },
   "repository": {
     "type": "git",
@@ -22,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/abdullahatrash/Natours-css/issues"
   },
-  "homepage": "https://github.com/abdullahatrash/Natours-css#readme"
+  "homepage": "https://github.com/abdullahatrash/Natours-css#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
 }
